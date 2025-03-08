@@ -3,6 +3,9 @@
 ## Overview
 This project implements a neural network-based classifier using R-functions to combine outputs from multiple decision boundaries. The classifier is trained on a synthetic dataset generated using `sklearn.datasets.make_blobs`. The primary goal is to demonstrate how R-functions can be used to merge multiple decision boundaries in a classification task.
 
+## Example
+[example][example.png]
+
 ## Features
 - Uses two linear classifiers combined using an R-function.
 - Applies a sigmoid activation function for classification.
@@ -32,7 +35,7 @@ pip install numpy matplotlib scikit-learn
 ## Usage
 Run the Python script to train the classifier and visualize the training process:
 ```sh
-python r_function_nn.py
+python pwlc.py
 ```
 
 ## Key Functions
@@ -45,13 +48,6 @@ python r_function_nn.py
 
 ## Animation
 The training process is visualized using `matplotlib.animation.FuncAnimation`, showing how the decision boundaries evolve over time.
-
-## Future Improvements
-- Extend the model to handle multi-class classification.
-- Experiment with different activation functions.
-- Optimize weight update rules for faster convergence.
-
-## Author
 This implementation was developed as an educational demonstration of neural network classification using R-functions.
 
 ç
