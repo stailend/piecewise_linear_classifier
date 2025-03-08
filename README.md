@@ -4,7 +4,7 @@
 This project implements a neural network-based classifier using R-functions to combine outputs from multiple decision boundaries. The classifier is trained on a synthetic dataset generated using `sklearn.datasets.make_blobs`. The primary goal is to demonstrate how R-functions can be used to merge multiple decision boundaries in a classification task.
 
 ## Example
-[example][example.png]
+[example](example.png)
 
 ## Features
 - Uses two linear classifiers combined using an R-function.
