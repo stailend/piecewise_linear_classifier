@@ -49,5 +49,3 @@ python pwlc.py
 ## Animation
 The training process is visualized using `matplotlib.animation.FuncAnimation`, showing how the decision boundaries evolve over time.
 This implementation was developed as an educational demonstration of neural network classification using R-functions.
-
-ç
